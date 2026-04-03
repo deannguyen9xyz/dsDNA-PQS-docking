@@ -20,7 +20,7 @@ This work aims to find out the top DNA candidates for the development of dsDNA-b
        pip install numpy meeko pandas mdanalysis jupyter prolif RDkit gemmi
 
 2. Make sure all the dsDNA PDB files in folder "dna", and template.PDB file in folder "template".
-3. Run the script: **python battery_ekf_soc.py**
+3. Run the script: **main.ipynb**
 
 ---
 
@@ -33,9 +33,17 @@ This work aims to find out the top DNA candidates for the development of dsDNA-b
 
 ---
 
+## <img width="40" height="40" alt="image" src="https://github.com/user-attachments/assets/53c4db4f-9e12-40ee-aad7-44ab96ecddc9" /> Limitations
+
+- DNA structures were treated as rigid during docking
+- Results represent relative binding affinity, not absolute values
+- Binding poses should be interpreted qualitatively
+
+--- 
+
 ## 📊 Result and Discussion
 
-
+Top candidate sequences were selected based on average binding energy and reproducibility (mean ± SD).
 
 --- 
 
