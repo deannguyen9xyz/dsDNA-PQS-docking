@@ -43,7 +43,11 @@ This work aims to find out the top DNA candidates for the development of dsDNA-b
 
 ## 📊 Result and Discussion
 
-Top candidate sequences were selected based on average binding energy and reproducibility (mean ± SD).
+<img width="874" height="819" alt="image" src="https://github.com/user-attachments/assets/4960f242-7edf-4796-a8d4-ce4e5f978fe4" />
+Figure. The bõ 40x40x40 Angstrom is quite big, enough to contain ¬13 bases pare
+
+- Top candidate sequences were selected based on average binding energy and reproducibility (mean ± SD), this require 3-5 times repetition.
+- The target PQS with the whole carbon chain stuck inside the dsDNA structure, which may happen when the dsDNA opens. However, the results are just comparable between them, not meaning of absolute values.
 
 --- 
 
@@ -51,6 +55,6 @@ Top candidate sequences were selected based on average binding energy and reprod
 
 Developed by: Vu Bao Chau Nguyen, Ph.D.
 
-Keywords: Lithium ion battery, Kalman filter, State of charge.
+Keywords: DNA-based sensor, molecular docking.
 
 ---
