@@ -17,10 +17,16 @@ This work aims to find out the top DNA candidates for the development of dsDNA-b
 
 1. Install dependencies:
 
-       pip install numpy meeko pandas mdanalysis jupyter prolif RDkit gemmi
+              pip install numpy jupyter
 
-2. Make sure all the dsDNA PDB files in folder "dna", and template.PDB file in folder "template".
-3. Run the script: **main.ipynb**
+2. Install AutoDock Vina 1.2.0 from
+   https://github.com/ccsb-scripps/AutoDock-Vina/releases
+   and put the executable in the project folder.
+
+3. Install Open Babel and make sure `obabel` works from the command line.
+   The notebook calls it to convert PDB to PDBQT.
+4. Make sure all the dsDNA PDB files in folder "dna", and template.PDB file in folder "template".
+5. Run the notebook: **main_code_docking.ipynb**
 
 ---
 
@@ -45,7 +51,7 @@ This work aims to find out the top DNA candidates for the development of dsDNA-b
 
 <img width="437" height="410" alt="image" src="https://github.com/user-attachments/assets/4960f242-7edf-4796-a8d4-ce4e5f978fe4" />
 
-Figure. The bõ 40x40x40 Angstrom is quite big, enough to contain ¬13 bases pare
+Figure. The 40 x 40 x 40 Angstrom box is large enough to contain about 13 base pairs.
 
 - Top candidate sequences were selected based on average binding energy and reproducibility (mean ± SD), this require 3-5 times repetition.
 - The target PQS with the whole carbon chain stuck inside the dsDNA structure, which may happen when the dsDNA opens. However, the results are just comparable between them, not meaning of absolute values.
